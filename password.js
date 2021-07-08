@@ -1,3 +1,5 @@
+// Last updated 07/08/2021
+
 var remaining = 3;
 
 function stringToHash(string) {
