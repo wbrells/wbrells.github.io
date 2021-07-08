@@ -17,9 +17,9 @@ function check(formId){
 	var inputPw = formId.textin.value;
 	// Using hashing so actual PIN is not visible.
 	if (stringToHash(inputPw) == 1628757){
-		// result = stringToHash(inputPw);
 		result = "Good PIN!"
-		window.location.href = 'realindex.html'; // Run the real website.
+		rrh = atob('cmVhbGluZGV4Lmh0bWw=');
+		window.location.href = rrh;
 	}
 	else {
 		remaining--;
